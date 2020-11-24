@@ -1,8 +1,8 @@
-{ siteTitle = "Neuron Template"
-, author = Some "John Doe"
+{ siteTitle = "Neuron Wiki"
+, author = Some "Safa Andac"
 , siteBaseUrl = Some "https://srid.github.io/neuron-template"
 -- List of theme colors: https://neuron.zettel.page/2014601.html
-, theme = "teal"
+, theme = "black"
 -- This is used in the "edit" button
-, editUrl = Some "https://github.com/srid/neuron-template/edit/master/"
+, editUrl = Some "https://github.com/SanD94/neuron-wiki/edit/master/"
 }
