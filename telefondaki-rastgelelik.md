@@ -26,3 +26,7 @@ Mesele tamamen bir plan yapıp onu uygulamaktan ibaret oldu. İnsan olarak ne ya
 
 
 Olay sadece geçmişe dönük bir şekilde bakarak onları görüp yaptıkların ile gurur duymaktan vazgeçmek için önüne bakmaya çalışmana denk geldi. O kadar çok önüne odaklanmış bir haldeydin ki aklında var olanlar bile gerçekliğe kavuşamıyordu. Sevdiklerin ve yaptıkların her zaman için seveceklerin ve yapacakların konumuna düşebiliyordu. 
+
+## C++ move constructors
+
+The move constructor is designed to not throw an exception, so you mark it noexcept. Your preference should be to use noexcept move constructors; often, the compiler cannot use exception-throwing move constructors and will use copy constructors instead. Compilers prefer slow, correct code instead of fast, incorrect code.
